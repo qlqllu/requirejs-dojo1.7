@@ -13,7 +13,7 @@ require({
 		location: "lib/dojo/dojox"		
 	}
 	]
-},['dojo','dijit','dojox'],function(){	
+},['dojo','dijit','dojox'],function(dojo){	
 	console.log('main loaded');
-	console.log(dojo.require);
+	console.log(typeof dojo.require);
 });
